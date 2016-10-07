@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--  <link rel="stylesheet" type="text/css" href="css/style.css">-->
+
+</head>
+
+<body> 
+<div id="outer-cir" style="font-size: 34px;"></div>
+<!-- 
+      <p id="content-text">Tyler Palesano</p>
+      <div id="content-text-out"></div>
+      <p id="output">Console text</p>
+     
+  <div id="page">
+    <div id="container">
+    <br><br>
+    <br><br>
+      <p id="content-text">Tyler Palesano</p>
+      
+       <p id="content-text2" style="position: relative; height: 18px;"><span class="char1" style="position: absolute; left: 50%; margin-left: -0.34375em; transform: rotate(-104.36deg); transform-origin: center 1.875em 0px;">w</span><span class="char2" style="position: absolute; left: 50%; margin-left: -0.25em; transform: rotate(-63.4346deg); transform-origin: center 1.875em 0px;">h</span><span class="char3" style="position: absolute; left: 50%; margin-left: -0.25em; transform: rotate(-30.6942deg); transform-origin: center 1.875em 0px;">o</span><span class="char4" style="position: absolute; left: 50%; margin-left: -0.21875em; transform: rotate(0deg); transform-origin: center 1.875em 0px;">a</span><span class="char5" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(22.5091deg); transform-origin: center 1.875em 0px;">.</span><span class="char6" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(38.8793deg); transform-origin: center 1.875em 0px;">.</span><span class="char7" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(55.2495deg); transform-origin: center 1.875em 0px;">.</span><span class="char8" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(71.6197deg); transform-origin: center 1.875em 0px;">.</span><span class="char9" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(87.9899deg); transform-origin: center 1.875em 0px;">.</span><span class="char10" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(104.36deg); transform-origin: center 1.875em 0px;">.</span><span class="char11" style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(120.73deg); transform-origin: center 1.875em 0px;">.</span></p>
+    </div>
+  </div> 
+  -->
+  
+  <script src="js/main.js"></script>
+  
+  <canvas id="myCanvas" width="360" height="360" style="position: absolute;    top: 0;    left: 0;"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var centerX = canvas.width / 2;
+      var centerY = canvas.height / 2;
+      var radius = 180;
+
+      context.beginPath();
+      context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+      //context.fillStyle = '#d8d8d8';
+      //context.fill();
+      context.lineWidth = 2;
+      context.strokeStyle = '#003300';
+      context.stroke();
+    </script>
+</body>
+</html>

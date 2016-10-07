@@ -1,0 +1,8 @@
+.sign/
+.settings/
+js/circleType.js
+js/zepto.min.js
+.project
+*.info
+config.xml
+*.tproject
