@@ -6,3 +6,4 @@ js/zepto.min.js
 *.info
 config.xml
 *.tproject
+*.wgt
